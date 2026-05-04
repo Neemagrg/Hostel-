@@ -1,0 +1,17 @@
+<aside class="sidebar sidebar--student" aria-label="Student navigation">
+    <div class="sidebar-brand">
+        <span class="sidebar-brand-mark">SH</span>
+        <span class="sidebar-brand-text">SmartHostel</span>
+    </div>
+    <nav class="sidebar-nav">
+        <a href="${pageContext.request.contextPath}/StudentDashboardServlet" class="${studentNavActive eq 'dashboard' ? 'active' : ''}">My Dashboard</a>
+        <a href="${pageContext.request.contextPath}/StudentProfileServlet" class="${studentNavActive eq 'profile' ? 'active' : ''}">My Profile</a>
+        <a href="${pageContext.request.contextPath}/RoomApplicationServlet" class="${studentNavActive eq 'room' ? 'active' : ''}">Apply for Room</a>
+        <a href="${pageContext.request.contextPath}/SubmitComplaintServlet" class="${studentNavActive eq 'complaints' ? 'active' : ''}">My Complaints</a>
+        <a href="${pageContext.request.contextPath}/ViewFeesServlet" class="${studentNavActive eq 'fees' ? 'active' : ''}">Fee Status</a>
+        <a href="${pageContext.request.contextPath}/VisitorRequestServlet" class="${studentNavActive eq 'visitors' ? 'active' : ''}">Visitors</a>
+    </nav>
+    <div class="sidebar-footer">
+        <a href="${pageContext.request.contextPath}/LogoutServlet" class="sidebar-logout">Logout</a>
+    </div>
+</aside>
