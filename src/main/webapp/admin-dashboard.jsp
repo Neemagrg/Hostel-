@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Admin Dashboard - SmartHostel</title>
+    <title>Admin Dashboard - SMART-HOSTEL</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
