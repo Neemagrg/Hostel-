@@ -1,3 +1,4 @@
+
 package com.smarthostel.dao;
 
 import com.smarthostel.dao.impl.AllocationDaoImpl;

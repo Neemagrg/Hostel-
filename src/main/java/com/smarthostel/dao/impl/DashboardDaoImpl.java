@@ -1,3 +1,4 @@
+
 package com.smarthostel.dao.impl;
 
 import com.smarthostel.dao.DaoException;

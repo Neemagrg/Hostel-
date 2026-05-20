@@ -1,3 +1,4 @@
+
 package com.smarthostel.dao;
 
 public interface DashboardDao {

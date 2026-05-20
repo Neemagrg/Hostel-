@@ -17,6 +17,7 @@ public class DBConnection {
     public static Connection getConnection() {
         String url = getEnvOrDefault("DB_URL", DEFAULT_URL);
         String user = getEnvOrDefault("DB_USER", DEFAULT_USER);
+
         String password = getEnvOrDefault("DB_PASSWORD", DEFAULT_PASSWORD);
 
         try {

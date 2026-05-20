@@ -1,3 +1,4 @@
+
 package com.smarthostel.dao;
 
 import java.util.List;
